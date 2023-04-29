@@ -1,0 +1,13 @@
+/*
+* These three @ commands tell tailwind css to get these 3 packages or whatever they are 
+* they'll compile them in the build folder or where we tell them to.
+* We'll define custom variables or override some classes, we'll do that in this file.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.radial-blue{
+    background: radial-gradient(lightyellow, skyblue);
+}
